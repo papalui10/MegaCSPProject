@@ -11,12 +11,14 @@
 		BF61C19F21DFF77900263952 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF61C19D21DFF77900263952 /* Main.storyboard */; };
 		BF61C1A121DFF78300263952 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF61C1A021DFF78300263952 /* Assets.xcassets */; };
 		BF61C1A421DFF78300263952 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF61C1A221DFF78300263952 /* LaunchScreen.storyboard */; };
-		BF61C1B421DFF8F300263952 /* ArtProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF61C1B221DFF8F300263952 /* ArtProjectViewController.swift */; };
 		BF61C1B521DFF8F300263952 /* ArtCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF61C1B321DFF8F300263952 /* ArtCollectionViewController.swift */; };
 		BF61C1B821DFF90F00263952 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF61C1B621DFF90F00263952 /* DataViewController.swift */; };
 		BF61C1B921DFF90F00263952 /* BucketItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF61C1B721DFF90F00263952 /* BucketItemCell.swift */; };
 		BF61C1BB21DFF92200263952 /* AbstractionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF61C1BA21DFF92200263952 /* AbstractionViewController.swift */; };
 		BF61C1BD21DFF94600263952 /* AlgorithmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF61C1BC21DFF94600263952 /* AlgorithmViewController.swift */; };
+		BF8D75E321E52AA6008F05E9 /* BucketItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8D75E221E52AA6008F05E9 /* BucketItem.swift */; };
+		BF8D75E521E52AF2008F05E9 /* ArtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8D75E421E52AF1008F05E9 /* ArtView.swift */; };
+		BF8D75E721E52B09008F05E9 /* ArtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8D75E621E52B07008F05E9 /* ArtCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,12 +28,14 @@
 		BF61C1A021DFF78300263952 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF61C1A321DFF78300263952 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF61C1A521DFF78300263952 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BF61C1B221DFF8F300263952 /* ArtProjectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtProjectViewController.swift; sourceTree = "<group>"; };
 		BF61C1B321DFF8F300263952 /* ArtCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtCollectionViewController.swift; sourceTree = "<group>"; };
 		BF61C1B621DFF90F00263952 /* DataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
 		BF61C1B721DFF90F00263952 /* BucketItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BucketItemCell.swift; sourceTree = "<group>"; };
 		BF61C1BA21DFF92200263952 /* AbstractionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractionViewController.swift; sourceTree = "<group>"; };
 		BF61C1BC21DFF94600263952 /* AlgorithmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlgorithmViewController.swift; sourceTree = "<group>"; };
+		BF8D75E221E52AA6008F05E9 /* BucketItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BucketItem.swift; sourceTree = "<group>"; };
+		BF8D75E421E52AF1008F05E9 /* ArtView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtView.swift; sourceTree = "<group>"; };
+		BF8D75E621E52B07008F05E9 /* ArtCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,7 @@
 		BF61C19821DFF77900263952 /* MegaCSPProject */ = {
 			isa = PBXGroup;
 			children = (
+				BF8D75E121E52A77008F05E9 /* Model */,
 				BF61C1AB21DFF79800263952 /* Resources */,
 				BF61C1AD21DFF7AC00263952 /* Controller */,
 				BF61C1AC21DFF7A500263952 /* View */,
@@ -84,6 +89,8 @@
 		BF61C1AC21DFF7A500263952 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BF8D75E621E52B07008F05E9 /* ArtCell.swift */,
+				BF8D75E421E52AF1008F05E9 /* ArtView.swift */,
 				BF61C19D21DFF77900263952 /* Main.storyboard */,
 				BF61C1A221DFF78300263952 /* LaunchScreen.storyboard */,
 			);
@@ -114,7 +121,6 @@
 			isa = PBXGroup;
 			children = (
 				BF61C1B321DFF8F300263952 /* ArtCollectionViewController.swift */,
-				BF61C1B221DFF8F300263952 /* ArtProjectViewController.swift */,
 			);
 			path = Creativity;
 			sourceTree = "<group>";
@@ -133,6 +139,14 @@
 				BF61C1BC21DFF94600263952 /* AlgorithmViewController.swift */,
 			);
 			path = Algorithm;
+			sourceTree = "<group>";
+		};
+		BF8D75E121E52A77008F05E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BF8D75E221E52AA6008F05E9 /* BucketItem.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,9 +220,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF8D75E321E52AA6008F05E9 /* BucketItem.swift in Sources */,
 				BF61C1B821DFF90F00263952 /* DataViewController.swift in Sources */,
+				BF8D75E721E52B09008F05E9 /* ArtCell.swift in Sources */,
+				BF8D75E521E52AF2008F05E9 /* ArtView.swift in Sources */,
 				BF61C1B921DFF90F00263952 /* BucketItemCell.swift in Sources */,
-				BF61C1B421DFF8F300263952 /* ArtProjectViewController.swift in Sources */,
 				BF61C1BB21DFF92200263952 /* AbstractionViewController.swift in Sources */,
 				BF61C1BD21DFF94600263952 /* AlgorithmViewController.swift in Sources */,
 				BF61C1B521DFF8F300263952 /* ArtCollectionViewController.swift in Sources */,
