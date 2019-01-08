@@ -64,9 +64,6 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="sRC-ds-I2e"/>
                     </view>
-                    <connections>
-                        <segue destination="S6q-RM-FgK" kind="show" id="BkS-la-NyX"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bKu-j9-OvQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -105,13 +102,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Wlp-JS-fyE"/>
                     </view>
-                    <connections>
-                        <segue destination="Gxs-Pz-gaA" kind="show" id="W0x-Tg-pbE"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZtD-yf-iEL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1914" y="788"/>
+            <point key="canvasLocation" x="1686" y="788"/>
         </scene>
         <!--ByteCodeViewController-->
         <scene sceneID="AEL-tV-QPf">
@@ -147,13 +141,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="q1H-sN-E8a"/>
                     </view>
-                    <connections>
-                        <segue destination="kMs-8d-FLM" kind="show" id="pcx-Z1-wMX"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="80r-SW-7Mx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2766" y="788"/>
+            <point key="canvasLocation" x="2300" y="789"/>
         </scene>
         <!--BinaryViewController-->
         <scene sceneID="dO7-PI-lc1">
@@ -189,13 +180,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="3q7-cV-taW"/>
                     </view>
-                    <connections>
-                        <segue destination="NPW-gY-S2e" kind="show" id="HUx-8G-2uU"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z7F-4p-XWQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3577" y="788"/>
+            <point key="canvasLocation" x="2906" y="789"/>
         </scene>
         <!--LogicalGateViewController-->
         <scene sceneID="Kez-Ve-Kva">
@@ -234,7 +222,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ff0-gA-Ahx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4382" y="788"/>
+            <point key="canvasLocation" x="3513" y="789"/>
         </scene>
         <!--Art Project View Controller-->
         <scene sceneID="bMt-bu-uyd">

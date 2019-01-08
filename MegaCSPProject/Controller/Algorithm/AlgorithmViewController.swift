@@ -36,7 +36,7 @@ public class AlgorithmViewController: UIViewController
         
         let algorithm = [stepOne, stepTwo, stepThree, stepFour, stepFive, stepSix, stepSeven]
         
-        let attributesDictionary = [NSAttributedStringKey.font : algorithmText.font]
+        let attributesDictionary = [NSAttributedString.Key.font : algorithmText.font]
         let fullAttributedString = NSMutableAttributedString(string: title, attributes: attributesDictionary)
         
         for step in algorithm
@@ -46,7 +46,7 @@ public class AlgorithmViewController: UIViewController
             let attributedStringStep : NSMutableAttributedString = NSMutableAttributedString(string: formattedStep)
             let outlineStyle = createOutlineStyle()
             
-            attributedStringStep.addAttributes([NSAttributedStringKey.paragraphStyle : outlineStyle], range: NSMakeRange(0,attributedStringStep.length))
+            attributedStringStep.addAttributes([NSAttributedString.Key.paragraphStyle : outlineStyle], range: NSMakeRange(0,attributedStringStep.length))
             
             fullAttributedString.append(attributedStringStep)
         }
