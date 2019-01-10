@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF0B02BF21E7DF0200D796B4 /* ImpactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0B02BE21E7DF0200D796B4 /* ImpactViewController.swift */; };
 		BF61C19A21DFF77900263952 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF61C19921DFF77900263952 /* AppDelegate.swift */; };
 		BF61C19F21DFF77900263952 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF61C19D21DFF77900263952 /* Main.storyboard */; };
 		BF61C1A121DFF78300263952 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF61C1A021DFF78300263952 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF0B02BE21E7DF0200D796B4 /* ImpactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImpactViewController.swift; sourceTree = "<group>"; };
 		BF61C19621DFF77900263952 /* MegaCSPProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MegaCSPProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF61C19921DFF77900263952 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF61C19E21DFF77900263952 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF0B02BD21E7DEF500D796B4 /* Impact */ = {
+			isa = PBXGroup;
+			children = (
+				BF0B02BE21E7DF0200D796B4 /* ImpactViewController.swift */,
+			);
+			path = Impact;
+			sourceTree = "<group>";
+		};
 		BF61C18D21DFF77900263952 = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +110,7 @@
 		BF61C1AD21DFF7AC00263952 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				BF0B02BD21E7DEF500D796B4 /* Impact */,
 				BF61C1B121DFF7E900263952 /* Algorithm */,
 				BF61C1B021DFF7E000263952 /* Abstraction */,
 				BF61C1AF21DFF7D600263952 /* Creativity */,
@@ -222,6 +233,7 @@
 			files = (
 				BF8D75E321E52AA6008F05E9 /* BucketItem.swift in Sources */,
 				BF61C1B821DFF90F00263952 /* DataViewController.swift in Sources */,
+				BF0B02BF21E7DF0200D796B4 /* ImpactViewController.swift in Sources */,
 				BF8D75E721E52B09008F05E9 /* ArtCell.swift in Sources */,
 				BF8D75E521E52AF2008F05E9 /* ArtView.swift in Sources */,
 				BF61C1B921DFF90F00263952 /* BucketItemCell.swift in Sources */,
